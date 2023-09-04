@@ -68,7 +68,7 @@ namespace CSGO_Font_Manager
             SettingsManager = new JsonManager<Settings>(SettingsFile);
             Settings = SettingsManager.Load();
 
-            checkForUpdates();
+            //checkForUpdates();
             LoadCSGOFolder();
             refreshFontList();
 
@@ -90,6 +90,7 @@ namespace CSGO_Font_Manager
             }
         }
 
+        
         private void checkForUpdates()
         {
             if (Settings.HideNewUpdates) return;
@@ -172,6 +173,7 @@ namespace CSGO_Font_Manager
             return processes.Length != 0;
         }
 
+        /*
         private static void ExtractUpdater()
         {
             if (UpdaterIsRunning()) return;
@@ -182,7 +184,7 @@ namespace CSGO_Font_Manager
                 File.WriteAllBytes(UpdaterFile, Properties.Resources.updater);
             }
             catch { }
-        }
+        }*/
 
         private static void SetupFolderStructure()
         {
@@ -197,7 +199,7 @@ namespace CSGO_Font_Manager
                 MessageBox.Show("Appdata does not exist... You're not running this on linux or mac huh..?", "No can do");
                 Application.Exit(new CancelEventArgs());
             }
-            ExtractUpdater();
+            //ExtractUpdater();
 
             // Transfer all files from old (if existing) FontManager folder to the new one in AppData
             if (Directory.Exists(OldFontManagerFolder))

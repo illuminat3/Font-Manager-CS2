@@ -294,6 +294,336 @@ namespace CSGO_Font_Manager
             "	\n" +
             "	<match>\n" +
             "		<test name=\"family\">\n" +
+            "			<string>Stratum2 Thin</string>\n" +
+            "		</test>\n" +
+            "		<edit name=\"family\" mode=\"append\" binding=\"strong\">\n" +
+            "			<string>" + fontname + "</string>\n" +
+            "		</edit>\n" +
+            "		<edit name=\"pixelsize\" mode=\"assign\">\n" +
+            "			<times>\n" +
+            "				<name>pixelsize</name>\n" +
+            "				<double>" + pixelSize + "</double>\n" +
+            "			</times>\n" +
+            "		</edit>\n" +
+            "	</match>\n" +
+            "	\n" +
+            "	<match>\n" +
+            "		<test name=\"family\">\n" +
+            "			<string>Stratum2 Thin Italic</string>\n" +
+            "		</test>\n" +
+            "		<edit name=\"family\" mode=\"append\" binding=\"strong\">\n" +
+            "			<string>" + fontname + "</string>\n" +
+            "		</edit>\n" +
+            "		<edit name=\"pixelsize\" mode=\"assign\">\n" +
+            "			<times>\n" +
+            "				<name>pixelsize</name>\n" +
+            "				<double>" + pixelSize + "</double>\n" +
+            "			</times>\n" +
+            "		</edit>\n" +
+            "	</match>\n" +
+            "	\n" +
+            "	<match>\n" +
+            "		<test name=\"family\">\n" +
+            "			<string>Stratum2 Thin Condensed</string>\n" +
+            "		</test>\n" +
+            "		<edit name=\"family\" mode=\"append\" binding=\"strong\">\n" +
+            "			<string>" + fontname + "</string>\n" +
+            "		</edit>\n" +
+            "		<edit name=\"pixelsize\" mode=\"assign\">\n" +
+            "			<times>\n" +
+            "				<name>pixelsize</name>\n" +
+            "				<double>" + pixelSize + "</double>\n" +
+            "			</times>\n" +
+            "		</edit>\n" +
+            "	</match>\n" +
+            "	\n" +
+            "	<match>\n" +
+            "		<test name=\"family\">\n" +
+            "			<string>Stratum2 Thin TF</string>\n" +
+            "		</test>\n" +
+            "		<edit name=\"family\" mode=\"append\" binding=\"strong\">\n" +
+            "			<string>" + fontname + "</string>\n" +
+            "		</edit>\n" +
+            "		<edit name=\"pixelsize\" mode=\"assign\">\n" +
+            "			<times>\n" +
+            "				<name>pixelsize</name>\n" +
+            "				<double>" + pixelSize + "</double>\n" +
+            "			</times>\n" +
+            "		</edit>\n" +
+            "	</match>\n" +
+            "	\n" +
+            "	<match>\n" +
+            "		<test name=\"family\">\n" +
+            "			<string>Stratum2 Light</string>\n" +
+            "		</test>\n" +
+            "		<edit name=\"family\" mode=\"append\" binding=\"strong\">\n" +
+            "			<string>" + fontname + "</string>\n" +
+            "		</edit>\n" +
+            "		<edit name=\"pixelsize\" mode=\"assign\">\n" +
+            "			<times>\n" +
+            "				<name>pixelsize</name>\n" +
+            "				<double>" + pixelSize + "</double>\n" +
+            "			</times>\n" +
+            "		</edit>\n" +
+            "	</match>\n" +
+            "	\n" +
+            "	<match>\n" +
+            "		<test name=\"family\">\n" +
+            "			<string>Stratum2 Light Italic</string>\n" +
+            "		</test>\n" +
+            "		<edit name=\"family\" mode=\"append\" binding=\"strong\">\n" +
+            "			<string>" + fontname + "</string>\n" +
+            "		</edit>\n" +
+            "		<edit name=\"pixelsize\" mode=\"assign\">\n" +
+            "			<times>\n" +
+            "				<name>pixelsize</name>\n" +
+            "				<double>" + pixelSize + "</double>\n" +
+            "			</times>\n" +
+            "		</edit>\n" +
+            "	</match>\n" +
+            "	\n" +
+            "	<match>\n" +
+            "		<test name=\"family\">\n" +
+            "			<string>Stratum2 Light Condensed</string>\n" +
+            "		</test>\n" +
+            "		<edit name=\"family\" mode=\"append\" binding=\"strong\">\n" +
+            "			<string>" + fontname + "</string>\n" +
+            "		</edit>\n" +
+            "		<edit name=\"pixelsize\" mode=\"assign\">\n" +
+            "			<times>\n" +
+            "				<name>pixelsize</name>\n" +
+            "				<double>" + pixelSize + "</double>\n" +
+            "			</times>\n" +
+            "		</edit>\n" +
+            "	</match>\n" +
+            "	\n" +
+            "	<match>\n" +
+            "		<test name=\"family\">\n" +
+            "			<string>Stratum2 Light TF</string>\n" +
+            "		</test>\n" +
+            "		<edit name=\"family\" mode=\"append\" binding=\"strong\">\n" +
+            "			<string>" + fontname + "</string>\n" +
+            "		</edit>\n" +
+            "		<edit name=\"pixelsize\" mode=\"assign\">\n" +
+            "			<times>\n" +
+            "				<name>pixelsize</name>\n" +
+            "				<double>" + pixelSize + "</double>\n" +
+            "			</times>\n" +
+            "		</edit>\n" +
+            "	</match>\n" +
+            "	\n" +
+            "	<match>\n" +
+            "		<test name=\"family\">\n" +
+            "			<string>Stratum2 TF</string>\n" +
+            "		</test>\n" +
+            "		<edit name=\"family\" mode=\"append\" binding=\"strong\">\n" +
+            "			<string>" + fontname + "</string>\n" +
+            "		</edit>\n" +
+            "		<edit name=\"pixelsize\" mode=\"assign\">\n" +
+            "			<times>\n" +
+            "				<name>pixelsize</name>\n" +
+            "				<double>" + pixelSize + "</double>\n" +
+            "			</times>\n" +
+            "		</edit>\n" +
+            "	</match>\n" +
+            "	\n" +
+            "	<match>\n" +
+            "		<test name=\"family\">\n" +
+            "			<string>Stratum2 Medium</string>\n" +
+            "		</test>\n" +
+            "		<edit name=\"family\" mode=\"append\" binding=\"strong\">\n" +
+            "			<string>" + fontname + "</string>\n" +
+            "		</edit>\n" +
+            "		<edit name=\"pixelsize\" mode=\"assign\">\n" +
+            "			<times>\n" +
+            "				<name>pixelsize</name>\n" +
+            "				<double>" + pixelSize + "</double>\n" +
+            "			</times>\n" +
+            "		</edit>\n" +
+            "	</match>\n" +
+            "	\n" +
+            "	<match>\n" +
+            "		<test name=\"family\">\n" +
+            "			<string>Stratum2 Medium Italic</string>\n" +
+            "		</test>\n" +
+            "		<edit name=\"family\" mode=\"append\" binding=\"strong\">\n" +
+            "			<string>" + fontname + "</string>\n" +
+            "		</edit>\n" +
+            "		<edit name=\"pixelsize\" mode=\"assign\">\n" +
+            "			<times>\n" +
+            "				<name>pixelsize</name>\n" +
+            "				<double>" + pixelSize + "</double>\n" +
+            "			</times>\n" +
+            "		</edit>\n" +
+            "	</match>\n" +
+            "	\n" +
+            "	<match>\n" +
+            "		<test name=\"family\">\n" +
+            "			<string>Stratum2 Medium Condensed</string>\n" +
+            "		</test>\n" +
+            "		<edit name=\"family\" mode=\"append\" binding=\"strong\">\n" +
+            "			<string>" + fontname + "</string>\n" +
+            "		</edit>\n" +
+            "		<edit name=\"pixelsize\" mode=\"assign\">\n" +
+            "			<times>\n" +
+            "				<name>pixelsize</name>\n" +
+            "				<double>" + pixelSize + "</double>\n" +
+            "			</times>\n" +
+            "		</edit>\n" +
+            "	</match>\n" +
+            "	\n" +
+            "	<match>\n" +
+            "		<test name=\"family\">\n" +
+            "			<string>Stratum2 Medium TF</string>\n" +
+            "		</test>\n" +
+            "		<edit name=\"family\" mode=\"append\" binding=\"strong\">\n" +
+            "			<string>" + fontname + "</string>\n" +
+            "		</edit>\n" +
+            "		<edit name=\"pixelsize\" mode=\"assign\">\n" +
+            "			<times>\n" +
+            "				<name>pixelsize</name>\n" +
+            "				<double>" + pixelSize + "</double>\n" +
+            "			</times>\n" +
+            "		</edit>\n" +
+            "	</match>\n" +
+            "	\n" +
+            "	<match>\n" +
+            "		<test name=\"family\">\n" +
+            "			<string>Stratum2 Bold Condensed</string>\n" +
+            "		</test>\n" +
+            "		<edit name=\"family\" mode=\"append\" binding=\"strong\">\n" +
+            "			<string>" + fontname + "</string>\n" +
+            "		</edit>\n" +
+            "		<edit name=\"pixelsize\" mode=\"assign\">\n" +
+            "			<times>\n" +
+            "				<name>pixelsize</name>\n" +
+            "				<double>" + pixelSize + "</double>\n" +
+            "			</times>\n" +
+            "		</edit>\n" +
+            "	</match>\n" +
+            "	\n" +
+            "	<match>\n" +
+            "		<test name=\"family\">\n" +
+            "			<string>Stratum2 Bold TF</string>\n" +
+            "		</test>\n" +
+            "		<edit name=\"family\" mode=\"append\" binding=\"strong\">\n" +
+            "			<string>" + fontname + "</string>\n" +
+            "		</edit>\n" +
+            "		<edit name=\"pixelsize\" mode=\"assign\">\n" +
+            "			<times>\n" +
+            "				<name>pixelsize</name>\n" +
+            "				<double>" + pixelSize + "</double>\n" +
+            "			</times>\n" +
+            "		</edit>\n" +
+            "	</match>\n" +
+            "	\n" +
+            "	<match>\n" +
+            "		<test name=\"family\">\n" +
+            "			<string>Stratum2 Black</string>\n" +
+            "		</test>\n" +
+            "		<edit name=\"family\" mode=\"append\" binding=\"strong\">\n" +
+            "			<string>" + fontname + "</string>\n" +
+            "		</edit>\n" +
+            "		<edit name=\"pixelsize\" mode=\"assign\">\n" +
+            "			<times>\n" +
+            "				<name>pixelsize</name>\n" +
+            "				<double>" + pixelSize + "</double>\n" +
+            "			</times>\n" +
+            "		</edit>\n" +
+            "	</match>\n" +
+            "	\n" +
+            "	<match>\n" +
+            "		<test name=\"family\">\n" +
+            "			<string>Stratum2 Black Italic</string>\n" +
+            "		</test>\n" +
+            "		<edit name=\"family\" mode=\"append\" binding=\"strong\">\n" +
+            "			<string>" + fontname + "</string>\n" +
+            "		</edit>\n" +
+            "		<edit name=\"pixelsize\" mode=\"assign\">\n" +
+            "			<times>\n" +
+            "				<name>pixelsize</name>\n" +
+            "				<double>" + pixelSize + "</double>\n" +
+            "			</times>\n" +
+            "		</edit>\n" +
+            "	</match>\n" +
+            "	\n" +
+            "	<match>\n" +
+            "		<test name=\"family\">\n" +
+            "			<string>Stratum2 Black Condensed</string>\n" +
+            "		</test>\n" +
+            "		<edit name=\"family\" mode=\"append\" binding=\"strong\">\n" +
+            "			<string>" + fontname + "</string>\n" +
+            "		</edit>\n" +
+            "		<edit name=\"pixelsize\" mode=\"assign\">\n" +
+            "			<times>\n" +
+            "				<name>pixelsize</name>\n" +
+            "				<double>" + pixelSize + "</double>\n" +
+            "			</times>\n" +
+            "		</edit>\n" +
+            "	</match>\n" +
+            "	\n" +
+            "	<match>\n" +
+            "		<test name=\"family\">\n" +
+            "			<string>Stratum2 Black TF</string>\n" +
+            "		</test>\n" +
+            "		<edit name=\"family\" mode=\"append\" binding=\"strong\">\n" +
+            "			<string>" + fontname + "</string>\n" +
+            "		</edit>\n" +
+            "		<edit name=\"pixelsize\" mode=\"assign\">\n" +
+            "			<times>\n" +
+            "				<name>pixelsize</name>\n" +
+            "				<double>" + pixelSize + "</double>\n" +
+            "			</times>\n" +
+            "		</edit>\n" +
+            "	</match>\n" +
+            "	\n" +
+            "	<match>\n" +
+            "		<test name=\"family\">\n" +
+            "			<string>Stratum2 Mono Light</string>\n" +
+            "		</test>\n" +
+            "		<edit name=\"family\" mode=\"append\" binding=\"strong\">\n" +
+            "			<string>" + fontname + "</string>\n" +
+            "		</edit>\n" +
+            "		<edit name=\"pixelsize\" mode=\"assign\">\n" +
+            "			<times>\n" +
+            "				<name>pixelsize</name>\n" +
+            "				<double>" + pixelSize + "</double>\n" +
+            "			</times>\n" +
+            "		</edit>\n" +
+            "	</match>\n" +
+            "	\n" +
+            "	<match>\n" +
+            "		<test name=\"family\">\n" +
+            "			<string>Stratum2 Mono</string>\n" +
+            "		</test>\n" +
+            "		<edit name=\"family\" mode=\"append\" binding=\"strong\">\n" +
+            "			<string>" + fontname + "</string>\n" +
+            "		</edit>\n" +
+            "		<edit name=\"pixelsize\" mode=\"assign\">\n" +
+            "			<times>\n" +
+            "				<name>pixelsize</name>\n" +
+            "				<double>" + pixelSize + "</double>\n" +
+            "			</times>\n" +
+            "		</edit>\n" +
+            "	</match>\n" +
+            "	\n" +
+            "	<match>\n" +
+            "		<test name=\"family\">\n" +
+            "			<string>Stratum2 Condensed</string>\n" +
+            "		</test>\n" +
+            "		<edit name=\"family\" mode=\"append\" binding=\"strong\">\n" +
+            "			<string>" + fontname + "</string>\n" +
+            "		</edit>\n" +
+            "		<edit name=\"pixelsize\" mode=\"assign\">\n" +
+            "			<times>\n" +
+            "				<name>pixelsize</name>\n" +
+            "				<double>" + pixelSize + "</double>\n" +
+            "			</times>\n" +
+            "		</edit>\n" +
+            "	</match>\n" +
+            "	\n" +
+            "	<match>\n" +
+            "		<test name=\"family\">\n" +
             "			<string>Arial</string>\n" +
             "		</test>\n" +
             "		<edit name=\"family\" mode=\"append\" binding=\"strong\">\n" +
